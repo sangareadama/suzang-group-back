@@ -1,3 +1,0 @@
-INDEX VERSION 1.131+S:\DEV\PROGRM\GITLAB\projectBases\.metadata\.plugins\org.eclipse.jdt.core
-1671410523.index
-1392128738.index
