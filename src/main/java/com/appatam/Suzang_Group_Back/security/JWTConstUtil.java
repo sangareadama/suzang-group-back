@@ -4,7 +4,7 @@ public class JWTConstUtil {
 
 	public static final String SECRET="secretJWT";
 	
-	public static final String AUTH_HEADER="Authorization";
+	public static final String AUTH_HEADER="Authorization";  
 	
 	public static final int EXPIRE_TIME_ACCESS_TOKEN=24*60*60*1000;
 	

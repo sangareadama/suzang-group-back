@@ -17,7 +17,7 @@ public class Role {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id; 
-	private String libelle;
+	private String libelle;   
 	
 	public Role() { 
 		super();

@@ -9,7 +9,7 @@ public interface IUtilisateurService {
 	
 	public Utilisateur enregistrerUtilisateur(Utilisateur utilisateur);
 	
-	public Role  enregistrerRole(Role role);
+	public Role  enregistrerRole(Role role);    
 	
 	public void  ajouterRoleAUtilisateur(String email, String libelle);
 	

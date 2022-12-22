@@ -15,7 +15,7 @@ public class Reference {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nom;  
-	private String image;
+	private String image;  
 	
 	public Reference() {
 		super();

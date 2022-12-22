@@ -11,7 +11,7 @@ public class AccueilPage {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String titre11;
+	private String titre11;   
 	@Column(length = 2000)
 	private String contenu11;
 	private int decalageHaut1;

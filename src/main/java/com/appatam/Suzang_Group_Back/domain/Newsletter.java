@@ -17,7 +17,7 @@ public class Newsletter {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nom;
-	private String email;
+	private String email;  
 	 //Vrai si il est toujours actif
     @Column(nullable = true)
     private boolean valid ;

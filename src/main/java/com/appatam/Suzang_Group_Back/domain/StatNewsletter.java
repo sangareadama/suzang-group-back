@@ -17,7 +17,7 @@ public class StatNewsletter {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String minute;
+	private String minute;   
 	private String heure;
 	private String jour;
 	private String mois;  

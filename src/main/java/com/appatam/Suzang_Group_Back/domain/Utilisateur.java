@@ -81,7 +81,7 @@ public class Utilisateur {
 	}
 	public Utilisateur(String nom, String prenom, String username, String password, Collection<Role> roles) {
 		super();
-		this.nom = nom;
+		this.nom = nom;  
 		this.prenom = prenom;
 		this.username = username;
 		this.password = password;

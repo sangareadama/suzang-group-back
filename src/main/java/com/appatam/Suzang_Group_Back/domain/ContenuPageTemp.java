@@ -19,7 +19,7 @@ public class ContenuPageTemp {
 	@Column(length = 2000000)
 	private String libelle; 
 	private int decalageHaut; 
-	private int decalageGauche;
+	private int decalageGauche;  
 	 
 	
 	public ContenuPageTemp(String libelle,int decalageHaut,int decalageGauche) {

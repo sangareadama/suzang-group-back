@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class PasswordRessetToken {
 	
-	    @Id
+	    @Id  
 	    private String token; 
 
 	    @ManyToOne

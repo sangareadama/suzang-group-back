@@ -10,8 +10,7 @@
 	</parent>
 	<groupId>com.appatam.Suzang_Group_Back</groupId>    
 	<artifactId>Suzang_Group_Back</artifactId> 
-	<version>0.0.1-SNAPSHOT</version>    
-	<packaging>war</packaging>  
+	<version>0.0.1-SNAPSHOT</version>     
 	<name>Suzang_Group_Back</name>
 	<description>Suzang_Group_Back project for Spring Boot</description>
 	<properties>
@@ -24,7 +23,7 @@
 		<java.version>1.8</java.version> 
 		<maven-jar-plugin-version>3.3.9</maven-jar-plugin-version>
 	</properties>--> 
-	
+	  
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -130,37 +129,37 @@
 		</dependency>
 		
 				<!-- https://mvnrepository.com/artifact/com.maxmind.geoip2/geoip2 -->
-		<dependency>
+		<!--<dependency>
 		    <groupId>com.maxmind.geoip2</groupId>
 		    <artifactId>geoip2</artifactId>
 		    <version>3.0.2</version>
-		</dependency>
+		</dependency>-->
 		
 				
 	</dependencies>
 
 	<build>
-		<!--  <plugins>
+		 <plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!--<configuration>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-				</configuration>
+				</configuration>-->
 			</plugin>
-		</plugins>-->
-		<plugins>
+		</plugins>
+		<!-- <plugins>
 	      <plugin>
 	        <groupId>com.heroku.sdk</groupId>
 	        <artifactId>heroku-maven-plugin</artifactId>
 	        <version>3.0.5</version>
 	      </plugin>
-	    </plugins>
+	    </plugins>-->
 	</build>
 	<repositories>
 		<repository>

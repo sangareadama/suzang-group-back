@@ -10,7 +10,7 @@ public class UtilisateurRoleModel {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String username;
 	private String libelle; 
-	  
+	    
 	
 	public String getLibelle() { 
 		return libelle;

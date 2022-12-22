@@ -6,7 +6,7 @@ public class PasswordResetModel {
 	private String confirmPassword ; 
 	
 	
-	public String getPassword() {
+	public String getPassword() {  
 		return password;
 	}
 	public void setPassword(String password) {

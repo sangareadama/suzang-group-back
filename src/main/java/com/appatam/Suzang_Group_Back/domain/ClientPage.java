@@ -10,7 +10,7 @@ import javax.persistence.Id;
 
 public class ClientPage {
 	
-	@Id
+	@Id  
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String titre1;

@@ -9,7 +9,7 @@ import javax.persistence.Id;
 
 public class ContactPage {
 
-	@Id
+	@Id  
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String adresseTitre;

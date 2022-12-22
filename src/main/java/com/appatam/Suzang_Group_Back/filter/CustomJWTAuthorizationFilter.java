@@ -28,7 +28,7 @@ public class CustomJWTAuthorizationFilter extends OncePerRequestFilter {
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		 
+		     
 		if (request.getServletPath().equals("/generateToken")) {
 			
 			//passer au filte suivante

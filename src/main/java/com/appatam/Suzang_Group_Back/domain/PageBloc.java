@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 public class PageBloc {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private	long id;
+    private	long id;  
     private String designation;
     @ManyToMany(fetch =FetchType.EAGER, cascade = CascadeType.ALL)
  	private Collection<Role>  roles ;

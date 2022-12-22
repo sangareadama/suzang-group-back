@@ -5,7 +5,7 @@ public class DessouscrirNewsModel {
   private String username; 
 	
 	
-
+  
 	public String getUsername() {
 		return username;
 	}

@@ -88,7 +88,7 @@ public class Suzang_Group_BackApplication extends SpringBootServletInitializer {
 			  ,IClientPageService IcService,IAtoutPageSevice iaService,IServicePageService IsService,
 			  IAccueilPageService iaccueilService,IContactPageService icontactsevice) {
 		  return args -> { 
-			  
+			    
 			  if(iUtilisateurService.ListeUtilisateur().isEmpty()) {
 				  
 				  iUtilisateurService.enregistrerRole(new Role("ROLE_ADMIN"));

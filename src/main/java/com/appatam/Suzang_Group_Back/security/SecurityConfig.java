@@ -27,7 +27,7 @@ import com.appatam.Suzang_Group_Back.service.IUtilisateurService;
 @Order(1)
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-	@Autowired
+	@Autowired  
 	private IUtilisateurService iUtilisateurService;
 	
 	@Autowired

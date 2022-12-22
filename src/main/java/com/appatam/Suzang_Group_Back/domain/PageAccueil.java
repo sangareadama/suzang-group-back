@@ -22,7 +22,7 @@ public class PageAccueil {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private Integer ordre;
+	private Integer ordre;  
 	private String titre; 
 	private String image;  
 	@ManyToMany(fetch =FetchType.EAGER, cascade = CascadeType.ALL)

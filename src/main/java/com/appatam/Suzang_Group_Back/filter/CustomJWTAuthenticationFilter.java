@@ -32,7 +32,7 @@ import lombok.extern.slf4j.Slf4j;
 public class CustomJWTAuthenticationFilter extends UsernamePasswordAuthenticationFilter{
 
 	private AuthenticationManager authenticationManager;
-	
+	  
 	public CustomJWTAuthenticationFilter(AuthenticationManager authenticationManager) {
 		this.authenticationManager = authenticationManager;
 		

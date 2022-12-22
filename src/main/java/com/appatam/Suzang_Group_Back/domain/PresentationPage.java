@@ -17,7 +17,7 @@ public class PresentationPage {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	@Column(length = 2000)
+	@Column(length = 2000)  
 	private String titre1;  
 	@Column(length = 2000)
 	private String contenu1;  

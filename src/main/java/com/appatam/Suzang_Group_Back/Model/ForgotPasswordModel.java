@@ -5,7 +5,7 @@ public class ForgotPasswordModel {
 	private String username;
 	
 	 
-
+  
 	public String getUsername() {
 		return username;
 	}

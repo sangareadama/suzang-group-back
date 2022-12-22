@@ -27,7 +27,7 @@ import com.appatam.Suzang_Group_Back.service.IPasswordResetTokenService;
 import com.appatam.Suzang_Group_Back.service.IUtilisateurService;
 
 @RestController
-@RequestMapping("/home")
+@RequestMapping("/home")   
 
 public class ForgotPasswordController {
 	

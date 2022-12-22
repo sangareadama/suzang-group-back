@@ -17,7 +17,7 @@ public class ServicesItem {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Long id;  
 	private String titre1;
 	@Column(length = 2000)
 	private String contenu1;      

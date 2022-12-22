@@ -18,7 +18,7 @@ public class PagePresentation {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String titre;
+	private String titre;  
 	private String image;
 	@ManyToMany(fetch =FetchType.EAGER, cascade = CascadeType.ALL)
 	private Collection<ContenuDePage> contenus;

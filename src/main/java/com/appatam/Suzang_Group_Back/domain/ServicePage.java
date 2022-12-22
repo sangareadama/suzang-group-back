@@ -15,7 +15,7 @@ public class ServicePage {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String titre1;
+	private String titre1;  
 	private String contenu1;  
 	 
 	public Long getId() { 

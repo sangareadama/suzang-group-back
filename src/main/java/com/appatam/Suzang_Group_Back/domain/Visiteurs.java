@@ -12,7 +12,7 @@ import lombok.AllArgsConstructor;
 @Entity
 @AllArgsConstructor
 public class Visiteurs {
-
+   
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;

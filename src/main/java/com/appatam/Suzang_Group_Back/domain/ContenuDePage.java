@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class ContenuDePage {  
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+	private Long id; 
 	@Column(length = 2000000)
 	private String libelle;
 	private int decalageHaut;
