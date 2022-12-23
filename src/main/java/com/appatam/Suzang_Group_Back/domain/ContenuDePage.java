@@ -18,8 +18,8 @@ public class ContenuDePage {
 	private Long id; 
 	@Column(length = 2000000)
 	private String libelle;
-	private int decalageHaut;
-	private int decalageGauche;
+	private int decalageHaut;  
+	private int decalageGauche;    
 	 
 	
 	public ContenuDePage(String libelle,int decalageHaut,int decalageGauche) {

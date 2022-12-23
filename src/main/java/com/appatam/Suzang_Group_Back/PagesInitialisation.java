@@ -58,13 +58,12 @@ public class PagesInitialisation {
 					+ "surprendre en permanence.";
 			String contenu2="SYNERGIE nous enseigne que la solitude programme \r\n"
 					+ "l’échec. Pour réussir nous devons à la fois travailler en \r\n"
-					+ "harmonie et travailler l’harmonie. Que ce soit entre collaborateurs, avec le partenaire, ou au sein de l’environnement, nous devons toujours trouver le moyen de \r\n"
-					+ "donner, d’échanger, de fusionner, pour profiter de l’effet de décuplement des énergies.\r\n"
+					+ "harmonie et travailler l’harmonie. Que ce soit entre cololaborateurs, avec le partenaire, ou au sein de l’environnement, nous devons toujours trouver le moyen de \r\n"
+					+ "donner, d’échanger, de fusionner, pour profiter de l’effet de décuplement des énergies.\r\n"
 					+ "Des combinaisons de ces vertus sortent les offres les \r\n"
-					+ "plus prometteuses, les plus surprenantes, surtout celles \r\n"
 					+ "qui comptent et tiennent compte des réalités et des besoins du marché.";
 					
-			iaService.enregistrerAtoutPage(new AtoutPage(titre1, contenu1,contenu2));
+			iaService.enregistrerAtoutPage(new AtoutPage(titre1, contenu1,contenu2)); 
 		}
 		
 		if(IsService.ListeServicePage().isEmpty()) { 
