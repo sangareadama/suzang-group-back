@@ -16,97 +16,113 @@ public class Visiteurs {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String ipAddress;
-	private String pays;
-	private String ville;
-	private Double lat;
-	private Double lon;
-	private String hostIpAddress;
-	private String hostName;
-	private String pageVisite;
-	private Date date;
+	private String ip;
+	private String city;
+	private String country_name; 
+	private String latitude;
+	private String longitude;
+	private String org;
+	private String date;
 	
 	
 	public Visiteurs() {
 		super();
-		this.date=new Date();
 		// TODO Auto-generated constructor stub
 	}
-	
-	public Visiteurs(String ipAddress, String pays, String ville, Double lat, Double lon, String hostIpAddress,
-			String hostName, String pageVisite) {
+  
+
+	public Visiteurs(String ip, String city, String country_name, String latitude, String longitude, String org) {
 		super();
-		this.ipAddress = ipAddress;
-		this.pays = pays;
-		this.ville = ville;
-		this.lat = lat;
-		this.lon = lon;
-		this.hostIpAddress = hostIpAddress;
-		this.hostName = hostName;
-		this.pageVisite = pageVisite;
-		this.date=new Date();
+		this.ip = ip;
+		this.city = city;
+		this.country_name = country_name;
+		this.latitude = latitude;
+		this.longitude = longitude;
+		this.org = org;
 	}
+
+
 	public Long getId() {
 		return id;
 	}
+
+
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getIpAddress() {
-		return ipAddress;
+
+
+	public String getIp() {
+		return ip;
 	}
-	public void setIpAddress(String ipAddress) {
-		this.ipAddress = ipAddress;
+
+
+	public void setIp(String ip) {
+		this.ip = ip;
 	}
-	public String getPays() {
-		return pays;
+
+
+	public String getCity() {
+		return city;
 	}
-	public void setPays(String pays) {
-		this.pays = pays;
+
+
+	public void setCity(String city) {
+		this.city = city;
 	}
-	public String getVille() {
-		return ville;
+
+
+	public String getCountry_name() {
+		return country_name;
 	}
-	public void setVille(String ville) {
-		this.ville = ville;
+
+
+	public void setCountry_name(String country_name) {
+		this.country_name = country_name;
 	}
-	public Double getLat() {
-		return lat;
+
+
+	
+
+	public String getLatitude() {
+		return latitude;
 	}
-	public void setLat(Double lat) {
-		this.lat = lat;
+
+
+	public void setLatitude(String latitude) {
+		this.latitude = latitude;
 	}
-	public Double getLon() {
-		return lon;
+
+
+	public String getLongitude() {
+		return longitude;
 	}
-	public void setLon(Double lon) {
-		this.lon = lon;
+
+
+	public void setLongitude(String longitude) {
+		this.longitude = longitude;
 	}
-	public String getHostIpAddress() {
-		return hostIpAddress;
+
+
+	public String getOrg() {
+		return org;
 	}
-	public void setHostIpAddress(String hostIpAddress) {
-		this.hostIpAddress = hostIpAddress;
+
+
+	public void setOrg(String org) {
+		this.org = org;
 	}
-	public String getHostName() {
-		return hostName;
-	}
-	public void setHostName(String hostName) {
-		this.hostName = hostName;
-	}
-	public String getPageVisite() {
-		return pageVisite;
-	}
-	public void setPageVisite(String pageVisite) {
-		this.pageVisite = pageVisite;
-	}
-	public Date getDate() {
+
+
+	public String getDate() {
 		return date;
 	}
-	public void setDate(Date date) {
+
+
+	public void setDate(String date) {
 		this.date = date;
 	}
-	
+
 	
 	
 	

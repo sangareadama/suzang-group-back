@@ -108,7 +108,7 @@ public class PagesInitialisation {
 			String contenu32="Sur tous les canaux, nous planifions, préparons et organisons minutieusement cette rencontre \r\n"
 					+ "entre vous et votre client.";
 					
-			iaccueilService.enregistrerAccueilPage(new AccueilPage(titre11, contenu11,0,0,titre22,contenu21,contenu22 ,0,0,titre33,contenu31,contenu32,0,0));
+			iaccueilService.enregistrerAccueilPage(new AccueilPage(titre11, contenu11,0,0,titre22,contenu21,contenu22 ,0,0,titre33,contenu31,contenu32,0,5));
 		}
       
       if(icontactsevice.ListeContactPage().isEmpty()) { 

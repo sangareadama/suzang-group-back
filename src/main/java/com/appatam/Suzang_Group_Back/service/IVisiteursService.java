@@ -11,4 +11,6 @@ public interface IVisiteursService  {
 	public Visiteurs rechercherVisiteursId(Long id);
 	
 	public List<Visiteurs>ListeVisiteurs(); 
+	
+	public List<Visiteurs>ListeVisiteursStat(); 
 }

@@ -26,12 +26,15 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class PresentationPageController { 
 	
+	AccueilPageController ac = new AccueilPageController();
+	
 	@Autowired
 	private IPresentationPageService iPresentationService;
 	 
-	@GetMapping("/presentation")  
+	@GetMapping("/presentation")   
 	public ResponseEntity<List<PresentationPage>>listePresentation(){
 		
+		       
 		return ResponseEntity.ok().body(iPresentationService.ListePresentation());
 		
 	}
@@ -42,9 +45,10 @@ public class PresentationPageController {
 		URI uri = URI.create(ServletUriComponentsBuilder.fromCurrentContextPath().path("/api/presentation/save").toUriString());
 		
 	  return ResponseEntity.created(uri).body(iPresentationService.enregistrerPresentation(ps));
-	   
-	  }
+
+	}
 	  
+	
 	@PostMapping("/presentation/update")
 	public ResponseEntity<PresentationPage> modifierPresentation(@RequestBody PresentationPage ps) {
 		
@@ -52,7 +56,6 @@ public class PresentationPageController {
 		
 	  return ResponseEntity.created(uri).body(iPresentationService.modifierPresentation(ps));
 	   
-	  }
+	}
 	
-
 }
